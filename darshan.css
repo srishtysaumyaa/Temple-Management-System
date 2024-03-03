@@ -1,0 +1,99 @@
+﻿
+ *
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    
+    background: url('Shiv2.jpg') no-repeat center center fixed;
+    background-size:100%;
+}
+ .container
+ {
+     background-color:White;
+     position: absolute;
+     top: 10%;
+     left:10%;
+     width:400px;
+     height:500px;
+     
+ }   
+.container h1
+{
+    display:inline-block;
+    font-size:40px;
+    border-bottom:5px solid purple;
+    margin-bottom:11px;
+    padding:10px 0;
+    position:relative;
+    left:30%;
+    top:0%;
+}
+.box
+{
+    width:270px;
+    border-bottom: 2px solid purple;
+    margin:15px 0;
+    position:relative;
+    left:20%;
+}  
+.box input
+{
+    background: none;
+    width:200px;
+    color: black;
+    padding:2px 15px;
+    border:none;
+    outline:none;
+    font-size:15px;
+    font-weight:bolder;
+}  
+.box i
+  { 
+    width:25px;
+    color:black;
+    text-align:center;
+    float:left;
+  }  
+  
+ .mySelect
+ {
+    background:none;
+    color: black;
+    padding: 0px 10px;
+    font-size: 18px;
+} 
+ 
+ .mySelect option
+ {
+	background:none;
+	color: black;
+    padding: 10px 10px;
+}
+ 
+ .btn input
+{
+     cursor:pointer;
+     outline:none;
+     width:122px; 
+     margin:12px 0;
+     padding:6px 8px;
+     border-radius:10px;
+     border:3px solid purple;
+     font-size:18px; 
+     background:none;
+     color:black;
+     font-weight:bold;
+     position:relative;
+     left:20%;
+      
+}  
+.btn input:hover
+{
+    background:white;
+    color:purple;
+}   
+      
+
